@@ -1,0 +1,63 @@
+body{
+    font-family: "fira code", monospace;
+    background-image: url("logimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#title{
+    align-self: self-start;
+    justify-content: center;
+    position: absolute;
+    color: #3A3A3A;
+    font-size: 35pt;
+    margin-top: 3vh;
+}
+
+section{
+    background-color: #FFFFFF;
+    padding: 5vh;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#compart{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: extra-bold;
+    color: #000000;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #3A3A3A;
+}
+
+#btn-agendar{
+    padding: 1vh;
+    font-size: 1.2rem;
+    background-color: #A3B9A5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8vh;
+}
