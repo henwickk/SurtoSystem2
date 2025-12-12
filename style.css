@@ -1,6 +1,6 @@
 body{
     font-family: "fira code", monospace;
-    background-image: url("logimg.jpg");
+    background-image: url(/img/logimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -71,7 +71,7 @@ h2{
 }
 
 p{
-    font-family: Blooms;
+    font-family:Blooms;
     font-size: 90pt;
     color: white;
     text-shadow: 2px 2px 4px #000000;
