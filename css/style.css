@@ -1,0 +1,78 @@
+body{
+    font-family: "fira code", monospace;
+    background-image: url(/img/logimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    gap: 20vw;
+}
+
+.login-form{
+    background-color: rgba(54, 54, 54, 0.473);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 18vw;
+    height: 45vh;
+}
+
+.formlog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1vw;
+    height: 30vh;
+}
+
+.formlog input{
+    background-color: #ffffff71;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 3vh;
+    width: 15vw;
+    color: #fff;
+}
+.formlog label{
+    margin-bottom: 1vh;
+    font-size: 15pt;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25pt;
+
+}
+
+.btlog{
+    background-color: #A3B9A5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+    height: 5vh;
+    margin-left: 5vw;
+}
+
+.btlog:hover{
+    background-color: #6e7f6e;
+}
+
+p{
+    font-family:Blooms;
+    font-size: 90pt;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
