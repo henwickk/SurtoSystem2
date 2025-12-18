@@ -7,3 +7,8 @@ function login(){
 function regis(){
     window.location.href = "registrar.html";
 }
+
+//Função de ir Cadastrar Usuário
+function cadastrarUsuario(){
+    window.location.href = "cadusu.html";
+}
