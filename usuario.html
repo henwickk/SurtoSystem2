@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,114 +11,116 @@
 
     <link rel="stylesheet" href="css/usuario.css">
 </head>
+
 <body>
 
-<div class="layout">
+    <div class="layout">
+<!-- TESTE -->
 
-    
-    <aside class="sidebar">
-        <a href="dashboard.html" class="item nav-link">
-            <i class="bi bi-speedometer2"></i>
-            <span>Dashboard</span>
-        </a>
+        <aside class="sidebar">
+            <a href="dashboard.html" class="item nav-link">
+                <i class="bi bi-house"></i>
+                <span>Dashboard</span>
+            </a>
 
-        <a class="item nav-link">
-            <i class="bi bi-person-badge"></i>
-            <span>Pacientes</span>
-        </a>
+            <a class="item nav-link">
+                <i class="bi bi-person-badge"></i>
+                <span>Usuário</span>
+            </a>
 
-        <a href="registrar.html" class="item nav-link">
-            <i class="bi bi-journal-text"></i>
-            <span>Registros</span>
-        </a>
+            <a href="registrar.html" class="item nav-link">
+                <i class="bi bi-journal-text"></i>
+                <span>Registros</span>
+            </a>
 
-        <a href="campanha.html" class="item nav-link">
-            <i class="bi bi-journal-text"></i>
-            <span>Campanhas</span>
-        </a>
+            <a href="campanha.html" class="item nav-link">
+                <i class="bi bi-journal-text"></i>
+                <span>Campanhas</span>
+            </a>
 
-        <a href="index.html" class="item nav-link">
-            <i class="bi bi-box-arrow-right"></i>
-            <span>Sair</span>
-        </a>
-    </aside>
+            <a href="index.html" class="item nav-link">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+            </a>
+        </aside>
 
-    
-    <main class="conteudo">
 
-        <div class="topo">
-            <h1>Usuário</h1>
+        <main class="conteudo">
 
-            <div class="top-actions">
-                <div class="search-box">
-                    <i class="bi bi-search"></i>
-                    <input type="text" placeholder="Buscar paciente por Usuário...">
-                </div>
+            <div class="topo">
+                <h1>Usuário</h1>
 
-                <button class="novo-btn">
+                <div class="top-actions">
+                    <div class="search-box">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="Buscar paciente por Usuário...">
+                    </div>
+
+                    <button class="novo-btn" onclick="cadastrarUsuario()">
                         + Novo Usuário
-                </button>
+                    </button>
 
-                <div class="perfil">
-                    <i class="bi bi-bell"></i>
-                    <img src="img/img.6.avif" alt="">
-                    <span>Olá, Dra. Tais</span>
+                    <div class="perfil">
+                        <i class="bi bi-bell"></i>
+                        <img src="/img/img.6.avif" alt="">
+                        <span>Olá, Dra. Tais</span>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        
-        <div class="lista">
 
-            <div class="card-paciente">
-                <img src="img/img.3.jpeg" class="foto">
-                <div class="dados">
-                    <h4>Luana</h4>
+            <div class="lista">
+
+                <div class="card-paciente">
+                    <img src="/img/img.3.jpeg" class="foto">
+                    <div class="dados">
+                        <h4>Luana</h4>
+                    </div>
+
+                    <span class="badge-ativa">Excluir</span>
                 </div>
 
-                <span class="badge-ativa">Excluir</span>
-            </div>
+                <div class="card-paciente">
+                    <img src="/img/img.2.jpeg" class="foto">
+                    <div class="dados">
+                        <h4>Lucas</h4>
+                    </div>
 
-            <div class="card-paciente">
-                <img src="img/img.2.jpeg" class="foto">
-                <div class="dados">
-                    <h4>Lucas</h4>
+                    <span class="badge-ativa">Excluir</span>
                 </div>
 
-                <span class="badge-ativa">Excluir</span>
-            </div>
-
-            <div class="card-paciente">
-                <img src="img/img.4.png" class="foto">
-                <div class="dados">
-                    <h4>João</h4>
+                <div class="card-paciente">
+                    <img src="/img/img.4.png" class="foto">
+                    <div class="dados">
+                        <h4>João</h4>
+                    </div>
+                    <span class="badge-ativa">Excluir</span>
                 </div>
-                <span class="badge-ativa">Excluir</span>
-            </div>
 
-            <div class="card-paciente">
-                <img src="img/img.5.jpeg" class="foto">
-                <div class="dados">
-                    <h4>Arthur</h4>
+                <div class="card-paciente">
+                    <img src="/img/img.5.jpeg" class="foto">
+                    <div class="dados">
+                        <h4>Arthur</h4>
+                    </div>
+                    <span class="badge-ativa">Excluir</span>
                 </div>
-                <span class="badge-ativa">Excluir</span>
             </div>
-        </div>
-        <div class="paginacao">
-            <button class="pg">&lt;</button>
-            <button class="pg">1</button>
-            <button class="pg">2</button>
-            <button class="pg">4</button>
-            <button class="pg">Próximo &gt;</button>
-        </div>
+            <div class="paginacao">
+                <button class="pg">&lt;</button>
+                <button class="pg">1</button>
+                <button class="pg">2</button>
+                <button class="pg">4</button>
+                <button class="pg">Próximo &gt;</button>
+            </div>
 
-    </main>
-</div>
+        </main>
     </div>
-  </div>
-</div>
+    </div>
+    </div>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
