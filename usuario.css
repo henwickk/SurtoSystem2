@@ -14,18 +14,6 @@ body {
     box-shadow: 2px 0 10px rgba(0,0,0,0.05);
 }
 
-.sidebar .item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 14px 25px;
-    font-size: 1rem;
-    color:#ffff;
-    text-decoration: none;
-    border-radius: 12px;
-    margin: 6px 10px;
-}
-
 .conteudo {
     flex: 1;
     padding: 40px 50px;
@@ -198,5 +186,17 @@ body {
     border-radius: 10px;
     font-weight: 500;
 }
+
+.sidebar a {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+
 
 
